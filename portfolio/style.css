@@ -1,0 +1,172 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+* {
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.nav-list {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 1s;
+}
+
+.left-container, .right-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-container {
+    width: 70%;
+    background: #0a2342;
+    padding-left: 20px;
+}
+
+.right-container {
+    width: 30%;
+    background:linear-gradient(-45deg,white,#0a2342 75%);
+}
+.content{
+    color: burlywood;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    color: rgb(240, 247, 247);
+    font-size: xx-large;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+.content{
+    margin-left: 30px;
+}
+.content h2{
+    font-size: 35px;
+    margin-bottom: 0px;
+    color: lightcyan;
+    font-weight: bolder;
+}
+.name{
+    font-size: 50px;
+    color: #ff6b6b;
+}
+.content h1{
+    font-size: 35px;
+    color: #ff6b6b;
+}
+.content p{
+    max-width: 350px ;
+    font-size: 17px;
+    color: #e0e0e0;
+    line-height: 25px;
+    font-weight: bold;
+}
+.b1,.b2{
+    border: 2px solid lightcyan;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size:medium;
+    margin: 5px;
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+.b2{
+    width: 130px;
+    background: transparent;
+    transition: 1s;
+}
+.b1:hover{
+    background: white;
+    color: #0a2342;
+}
+.b2:hover{
+    background: white;
+    color: #0a2342;
+}
+
+.insta{
+    color: white;
+    transition: 0.9s;
+}
+.insta:hover{
+    color:#ff6b6b;
+}
+.linked{
+    color: white;
+    transition: 0.9s;
+}
+.linked:hover{
+    color:#ff6b6b;
+}
+.git{
+    transition: 0.9s;
+}
+.git:hover{
+    color:#ff6b6b;
+}
+.design .c{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.c:nth-child(1){
+   background:#0a2342;
+    width: 500px;
+}
+.c:nth-child(2){
+    width: 430px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("assets/WhatsApp\ Image\ 2025-10-05\ at\ 18.15.43_6ae0e493.jpg");
+    box-shadow: 
+    0 0 20px rgb(255, 255, 255),
+    inset 0 0 20px white; 
+}
+
+.nav-list li a:hover{
+    color: #ff6b6b;
+    
+}
+.fa-brandsfa-instagram{
+    color: white;
+}
